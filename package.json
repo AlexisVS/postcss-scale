@@ -1,0 +1,29 @@
+{
+  "name": "pp-postcss-scale",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "es6-promise": "^4.2.8",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-csscomb": "^3.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "postcss": "^8.2.13",
+    "postcss-scale": "^1.0.1",
+    "precss": "^4.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "postcss-cli": "^8.3.1"
+  },
+  "scripts": {
+    "postcss" : "postcss ./src/**/*.css --dir ./public.css --watch"
+  },
+  "version": "1.0.1"
+}
